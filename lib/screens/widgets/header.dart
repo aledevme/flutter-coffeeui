@@ -12,9 +12,7 @@ class _HeaderState extends State<Header> {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.only(
-        top: 20,
-        left: 20,
-        right: 20
+       
       ),
        child: Row(
          mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -23,7 +21,7 @@ class _HeaderState extends State<Header> {
              children: [
                Icon(Icons.location_pin, size: 13),
                SizedBox(width: 5),
-               Text('SANTANDER, SPAIN', style: TextStyle(
+               Text('SANTANDER, ESPAÑA', style: TextStyle(
                  fontSize: 13
                ))
              ],
